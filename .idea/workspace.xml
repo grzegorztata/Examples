@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="135b89c2-2657-49e3-98ad-6b5365765b41" name="Default" comment="" />
+    <list default="true" id="135b89c2-2657-49e3-98ad-6b5365765b41" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/java/com/palindrome/Palindrome1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/com/palindrome/Palindrome2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -28,11 +32,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Fibonacci2.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Fibonacci2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/com/fibonacci/with_recursion/Fibonacci2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+            <state relative-caret-position="238">
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Palindrome1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java/com/palindrome/Palindrome1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Palindrome2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java/com/palindrome/Palindrome2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -45,6 +70,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -355,6 +383,8 @@
         <option value="$PROJECT_DIR$/main.Fibonacci.without_recursion/Fibonacci1.java" />
         <option value="$PROJECT_DIR$/java/com/fibonacci/without_recursion/Fibonacci1.java" />
         <option value="$PROJECT_DIR$/java/com/fibonacci/with_recursion/Fibonacci2.java" />
+        <option value="$PROJECT_DIR$/java/com/palindrome/Palindrome1.java" />
+        <option value="$PROJECT_DIR$/java/com/palindrome/Palindrome2.java" />
       </list>
     </option>
   </component>
@@ -372,6 +402,7 @@
     <option name="width" value="676" />
     <option name="height" value="860" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -396,14 +427,14 @@
               <item name="Examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="Examples" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="fibonacci" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="Examples" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="fibonacci" type="462c0819:PsiDirectoryNode" />
-              <item name="without_recursion" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="palindrome" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -430,7 +461,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Fibonacci2">
+  <component name="RunManager" selected="Application.Palindrome2">
     <configuration name="Fibonacci1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.fibonacci.without_recursion.Fibonacci1" />
       <module name="Examples" />
@@ -443,6 +474,28 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.fibonacci.with_recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Palindrome1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.palindrome.Palindrome1" />
+      <module name="Examples" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.palindrome.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Palindrome2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.palindrome.Palindrome2" />
+      <module name="Examples" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.palindrome.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -491,9 +544,13 @@
     <list>
       <item itemvalue="Application.Fibonacci1" />
       <item itemvalue="Application.Fibonacci2" />
+      <item itemvalue="Application.Palindrome1" />
+      <item itemvalue="Application.Palindrome2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Palindrome2" />
+        <item itemvalue="Application.Palindrome1" />
         <item itemvalue="Application.Fibonacci2" />
         <item itemvalue="Application.Fibonacci1" />
       </list>
@@ -509,12 +566,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1539025933925</updated>
-      <workItem from="1539025935770" duration="2401000" />
+      <workItem from="1539025935770" duration="4015000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2401000" />
+    <option name="totallyTimeSpent" value="4015000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="923" y="0" width="676" height="860" extended-state="0" />
@@ -529,12 +586,12 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32885906" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32885906" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18484849" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3590909" />
       <window_info anchor="bottom" id="Build" weight="0.32885906" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Gradle" />
@@ -568,8 +625,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/com/fibonacci/with_recursion/Fibonacci2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+        <state relative-caret-position="238">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/com/palindrome/Palindrome1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/com/palindrome/Palindrome2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
